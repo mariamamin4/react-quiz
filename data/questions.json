@@ -1,0 +1,180 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Vue", "Svelte"],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "2",
+      "question": "Which company invented React?",
+      "options": ["Google", "Facebook", "Microsoft", "Amazon"],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "3",
+      "question": "What is the building block of React applications?",
+      "options": ["Elements", "Components", "Hooks", "Props"],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "4",
+      "question": "What is JSX?",
+      "options": [
+        "A JavaScript library",
+        "A syntax extension for JavaScript",
+        "A CSS framework",
+        "A database"
+      ],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "5",
+      "question": "How does data typically flow in React?",
+      "options": [
+        "Two-way data binding",
+        "One-way data flow",
+        "Random data flow",
+        "Global data flow only"
+      ],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "easy"
+    },
+    {
+      "id": "6",
+      "question": "What are props in React?",
+      "options": [
+        "Internal component state",
+        "Data passed from parent to child",
+        "CSS properties",
+        "Event listeners"
+      ],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "medium"
+    },
+    {
+      "id": "7",
+      "question": "What is derived state?",
+      "options": [
+        "State calculated from other data",
+        "State stored in localStorage",
+        "State shared between all components",
+        "State that never changes"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "id": "8",
+      "question": "What triggers a re-render in React?",
+      "options": [
+        "Changing a regular variable",
+        "Updating state",
+        "Changing a CSS class",
+        "Declaring a function"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "id": "9",
+      "question": "How should you update the DOM in React?",
+      "options": [
+        "Directly using document.querySelector",
+        "By updating state and props",
+        "Using innerHTML everywhere",
+        "By refreshing the page"
+      ],
+      "correctOption": 1,
+      "points": 20,
+      "difficulty": "medium"
+    },
+    {
+      "id": "10",
+      "question": "When should you use a callback function with a state setter?",
+      "options": [
+        "When the new state depends on the previous state",
+        "When rendering JSX",
+        "When importing a component",
+        "When styling an element"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "id": "11",
+      "question": "When is a function passed to useState called?",
+      "options": [
+        "On every render",
+        "Only during the initial render",
+        "After every click",
+        "When the component unmounts"
+      ],
+      "correctOption": 1,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "id": "12",
+      "question": "Which React Hook is commonly used to fetch data when a component first renders?",
+      "options": ["useState", "useEffect", "useRef", "useContext"],
+      "correctOption": 1,
+      "points": 10,
+      "difficulty": "medium"
+    },
+    {
+      "id": "13",
+      "question": "What is the purpose of the dependency array in useEffect?",
+      "options": [
+        "To define when the Effect should run again",
+        "To store component state",
+        "To create a new component",
+        "To update the DOM directly"
+      ],
+      "correctOption": 0,
+      "points": 30,
+      "difficulty": "hard"
+    },
+    {
+      "id": "14",
+      "question": "When does an Effect with an empty dependency array run?",
+      "options": [
+        "After every render",
+        "Only after the initial mount",
+        "Only when state changes",
+        "Never"
+      ],
+      "correctOption": 1,
+      "points": 30,
+      "difficulty": "medium"
+    },
+    {
+      "id": "15",
+      "question": "When does an Effect without a dependency array run?",
+      "options": [
+        "Only after the initial mount",
+        "Only when props change",
+        "After every render",
+        "Only when the component unmounts"
+      ],
+      "correctOption": 2,
+      "points": 20,
+      "difficulty": "hard"
+    }
+  ],
+  "highscores": []
+}
